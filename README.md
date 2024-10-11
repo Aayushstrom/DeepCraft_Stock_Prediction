@@ -38,18 +38,23 @@ git clone https://github.com/Aayushstrom/DeepCraft_Stock_Prediction.git
 ### Prepare the Dataset
 Place your stock price dataset (CSV format) in the same directory as the script. Ensure the dataset contains the columns required for the analysis, such as:
 
-    終値 (end price)
-    始値 (open price)
-    高値 (high price)
-    安値 (low price)
-    出来高 (trading volume)
-    変化率 % (percentage change)
-
-### Run the Program
-To execute the program, run the following command in your terminal:
+* 終値 (end price)
+* 始値 (open price)
+* 高値 (high price)
+* 安値 (low price)
+* 出来高 (trading volume)
+* 変化率 % (percentage change)
+  
+### Open the Jupyter Notebook
+To run the program, open the Jupyter Notebook file in your preferred environment. You can start Jupyter Notebook with the following command in your terminal:
 ```bash
-python stock_price_prediction.py
+jupyter notebook
 ```
+Once the Jupyter interface is open, navigate to the cloned repository and open the .ipynb file.
+
+### Run the Notebook
+Execute the cells in the Jupyter Notebook in order. The predictions and results will be displayed within the notebook itself.
+
 ### View Results
 After running the program, you will see the RMSE of the LSTM model printed in the terminal. You can modify the code to visualize the predictions versus actual values if desired.
 
