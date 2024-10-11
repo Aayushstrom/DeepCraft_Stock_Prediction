@@ -1,10 +1,10 @@
 # DeepCraft_Stock_Prediction
 
-# Stock Price Prediction Using LSTM
+## Stock Price Prediction Using LSTM
 
 This project aims to predict stock prices using Long Short-Term Memory (LSTM) neural networks. It utilizes historical stock price data to train the model and provides predictions based on time series analysis.
 
-## Overview
+### Overview
 
 The program is built using Python and leverages popular libraries such as TensorFlow, Keras, and Scikit-learn for data preprocessing, model building, and evaluation. The main steps involved in this project are:
 
@@ -14,7 +14,7 @@ The program is built using Python and leverages popular libraries such as Tensor
 4. **Model Selection and Training**: Implementing an LSTM model to learn from the data.
 5. **Model Evaluation**: Assessing the model's performance using evaluation metrics such as RMSE.
 
-## Requirements
+### Requirements
 
 Before running the program, ensure you have the following libraries installed:
 
@@ -28,3 +28,11 @@ You can install the required libraries using pip:
 
 ```bash
 pip install numpy pandas scikit-learn tensorflow
+```
+### Getting Started
+#### Clone the repository
+First, clone this repository to your local machine:
+```bash
+git clone https://github.com/Aayushstrom/DeepCraft_Stock_Prediction
+cd stock-price-prediction
+```
