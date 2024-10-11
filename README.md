@@ -60,7 +60,7 @@ If you would like to contribute to this project, please fork the repository and 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Acknowledgements
-*TensorFlow and Keras for the deep learning framework.
-*Scikit-learn for data preprocessing and evaluation metrics.
-*Pandas and Numpy for Data Cleaning and Feature engineering
-*Seaborn and Matplotlib for data visualization
+..*TensorFlow and Keras for the deep learning framework.
+..*Scikit-learn for data preprocessing and evaluation metrics.
+..*Pandas and Numpy for Data Cleaning and Feature engineering
+..*Seaborn and Matplotlib for data visualization
