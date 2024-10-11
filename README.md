@@ -33,8 +33,7 @@ pip install numpy pandas scikit-learn tensorflow
 #### Clone the repository
 First, clone this repository to your local machine:
 ```bash
-git clone https://github.com/Aayushstrom/DeepCraft_Stock_Prediction
-cd stock-price-prediction
+git clone https://github.com/Aayushstrom/DeepCraft_Stock_Prediction.git
 ```
 ### Prepare the Dataset
 Place your stock price dataset (CSV format) in the same directory as the script. Ensure the dataset contains the columns required for the analysis, such as:
@@ -61,7 +60,7 @@ If you would like to contribute to this project, please fork the repository and 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Acknowledgements
-TensorFlow and Keras for the deep learning framework.
-Scikit-learn for data preprocessing and evaluation metrics.
-Pandas and Numpy for Data Cleaning and Feature engineering
-Seaborn and Matplotlib for data visualization
+-TensorFlow and Keras for the deep learning framework.
+-Scikit-learn for data preprocessing and evaluation metrics.
+-Pandas and Numpy for Data Cleaning and Feature engineering
+-Seaborn and Matplotlib for data visualization
